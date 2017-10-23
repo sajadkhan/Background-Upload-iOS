@@ -3,7 +3,7 @@ Little helper class for uploading files in background in iOS.
 
 Uses NSURLSession from foundation framework to upload files in background. If you want to know in detail how it works here is [URLSession Programming Guide](https://developer.apple.com/library/content/documentation/Cocoa/Conceptual/URLLoadingSystem/URLLoadingSystem.html )
 
-
+## Usage
 ```Objective-C
 - (void)uploadUsingURLSession:(NSURL *)fileURL {
     if (!self.backgroundUploadImageHandler)
